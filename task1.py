@@ -2,6 +2,7 @@ from abc import abstractmethod, ABC
 
 from logger import logger
 
+
 class Vehicle(ABC):
     @abstractmethod
     def start_engine(self):
